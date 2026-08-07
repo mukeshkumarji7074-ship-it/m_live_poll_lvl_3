@@ -20,6 +20,48 @@
 
 /* ─── 1. Layout & shell ──────────────────────────────────── */
 
+/* Midnight aurora theme */
+:root {
+  --bg: #07111f;
+  --surface: rgba(14, 28, 48, 0.78);
+  --surface-2: rgba(18, 38, 63, 0.72);
+  --surface-3: rgba(31, 56, 87, 0.7);
+  --text-1: #f2f7ff;
+  --text-2: #b7c6dc;
+  --text-3: #7f94b3;
+  --text-on-dark: #f7f9ff;
+  --border: rgba(151, 180, 221, 0.18);
+  --border-strong: rgba(151, 180, 221, 0.34);
+  --accent: #7c8cff;
+  --accent-deep: #aeb8ff;
+  --accent-soft: rgba(124, 140, 255, 0.16);
+  --success: #45d6a1;
+  --success-soft: rgba(69, 214, 161, 0.14);
+  --info: #61c7ff;
+  --danger: #ff748c;
+  --danger-soft: rgba(255, 116, 140, 0.14);
+  --warning: #ffd36b;
+  --gradient-accent: linear-gradient(135deg, #6e7eff 0%, #b65cff 100%);
+  --gradient-soft: linear-gradient(135deg, rgba(31, 49, 91, 0.92), rgba(18, 35, 59, 0.78));
+  --shadow-xs: 0 2px 8px rgba(0, 0, 0, 0.18);
+  --shadow-sm: 0 10px 28px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 16px 40px rgba(0, 0, 0, 0.28);
+  --shadow-lg: 0 28px 80px rgba(0, 0, 0, 0.46);
+  --shadow-glow: 0 10px 30px rgba(110, 126, 255, 0.28);
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 20px;
+  --r-2xl: 26px;
+  --r-pill: 999px;
+}
+
+body {
+  margin: 0;
+  color: var(--text-1);
+  background: radial-gradient(circle at 12% 0%, rgba(77, 100, 255, 0.2), transparent 32rem), radial-gradient(circle at 92% 18%, rgba(182, 92, 255, 0.15), transparent 28rem), var(--bg);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
 .app-shell {
   min-height: 100vh;
   padding: 0 1.25rem 6rem;
@@ -1386,4 +1428,18 @@
   .search-input { min-width: 0; }
   .notice { flex-direction: column; align-items: flex-start; }
   .stat-card strong { font-size: 1.85rem; }
+}
+
+/* Dark-theme refinements for elements that previously used white fallbacks. */
+.app-shell { background-image: linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px); background-size: 36px 36px; }
+.notice { background: rgba(14, 28, 48, 0.88); backdrop-filter: blur(16px); }
+.notice.success { background: linear-gradient(135deg, rgba(12, 76, 64, 0.58), rgba(14, 28, 48, 0.9)); }
+.notice.info { background: linear-gradient(135deg, rgba(16, 67, 104, 0.58), rgba(14, 28, 48, 0.9)); }
+.notice.error { background: linear-gradient(135deg, rgba(98, 33, 52, 0.58), rgba(14, 28, 48, 0.9)); }
+.result-row.winner { background: linear-gradient(135deg, rgba(12, 91, 70, 0.48), rgba(18, 38, 63, 0.84)); }
+.modal-overlay { background: rgba(3, 9, 20, 0.72); }
+.poll-card, .panel, .modal-card { backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }
