@@ -35,19 +35,19 @@ This project demonstrates:
 ## Screenshots
 
 🏠 Home Page
-      ![Screenshot 2026-06-18 210151.png](screenshot/Screenshot%202026-06-18%20210151.png)
+      ![Screenshot 2026-08-10 124613.png](screenshot/Screenshot%202026-08-10%20124613.png)
 📝 Create Poll
-      ![Screenshot 2026-06-18 210214.png](screenshot/Screenshot%202026-06-18%20210214.png)
+      ![Screenshot 2026-08-10 124622.png](screenshot/Screenshot%202026-08-10%20124622.png)
 🗳️ Voting
-    ![Screenshot 2026-06-18 210545.png](screenshot/Screenshot%202026-06-18%20210545.png)
+    ![Screenshot 2026-08-10 131012.png](screenshot/Screenshot%202026-08-10%20131012.png)
 ✅ CI/CD
-    ![Screenshot 2026-06-18 205459.png](screenshot/Screenshot%202026-06-18%20205459.png)
+    ![Screenshot 2026-08-10 131740.png](screenshot/Screenshot%202026-08-10%20131740.png)
 
 ## Mobile responsive screenshots
 
 Below is a mobile view screenshot demonstrating the responsive layout on narrow screens. Replace the placeholder with a real phone-sized screenshot captured from the dev tools or a device.
 
-![WhatsApp Image 2026-06-18 at 9.07.51 PM.jpeg](screenshot/WhatsApp%20Image%202026-06-18%20at%209.07.51%20PM.jpeg)
+![WhatsApp Image 2026-08-10 at 1.19.12 PM.jpeg](screenshot/WhatsApp%20Image%202026-08-10%20at%201.19.12%20PM.jpeg)
 
 
 ## Deployed Contract
@@ -58,10 +58,10 @@ Below is a mobile view screenshot demonstrating the responsive layout on narrow 
 
 ## Verifiable Contract Call
 
-- Deploy tx hash: `0e1e13467216b3056b5351fd7d10ea59e2bc3d3000056fe236e42d5e2cb4bcdd`
-- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/0e1e13467216b3056b5351fd7d10ea59e2bc3d3000056fe236e42d5e2cb4bcdd
-- Sample `create_poll` tx hash: `e5a4df2c3ef97235d1b33ebe043cb66ab5642d53f0319caabc9f98e2239712c8`
-- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/e5a4df2c3ef97235d1b33ebe043cb66ab5642d53f0319caabc9f98e2239712c8
+- Deploy tx hash: `5b24ed87e38545845d60b0df87f68e1ac324880da94ed31e7bbfc11a4bafbdd7`
+- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/5b24ed87e38545845d60b0df87f68e1ac324880da94ed31e7bbfc11a4bafbdd7
+- Sample `create_poll` tx hash: `71ee88b4549ffcdf0663f160fe8e3483876f42a21df00641f739ae09193920e6`
+- Stellar Expert link: https://stellar.expert/explorer/testnet/tx/71ee88b4549ffcdf0663f160fe8e3483876f42a21df00641f739ae09193920e6
 
 ## Live Demo
 
